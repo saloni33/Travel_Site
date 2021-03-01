@@ -1,0 +1,289 @@
+*{
+    padding:0;
+    margin:0;
+   
+}
+
+.header{
+    height:100vh;
+    background: url(sand-937387.jpg) no-repeat center center/cover; 
+    text-align: center;
+   
+}
+.header img{
+    width:200px;
+    height:200px;
+    float:left;
+    padding:10px;
+    border-radius: 50%;
+    
+}
+
+.login{
+    width:100px;
+    height:50px;
+    margin:20px;
+    padding:8px;
+    outline: none !important;
+    border: 2px solid #fff;
+    background:black;
+    color:white;
+    float:right;
+
+}
+.header h1{
+    padding-top: 200px;
+    color:rgb(0, 0, 0);
+    font-size: 50px;
+    font-style:italic;
+    text-align: center;
+
+}
+
+.header p{
+    padding-top: 20px;
+    color:rgb(0, 0, 0);
+    font-size: 30px;
+    font-style:italic;
+    text-align: center;
+}
+
+.input-group{
+    width:90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin:auto;
+    padding:2px;
+    text-align: center;
+}
+
+.form-control{
+    border: 0 !important;
+    border-radius: 30px !important;
+    margin: 2px;
+    box-shadow:blue !important;
+
+
+}
+
+.input-group-append{
+    text-align: center;
+}
+
+.input-group-text {
+    
+    width: 100px;
+    text-align: center;
+    background-image: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color:#fff !important;
+    padding: 0 25px;
+    border-radius: 30px !important;
+    box-shadow: black !important;
+}
+
+.features{
+    padding:100px 0;
+}
+
+h1{
+    text-align:center;
+    padding-bottom: 30px;
+}
+
+.feature-img img{
+   width:100%;
+}
+
+.price{
+    width:50px;
+    height:50px;
+    background: #ff5722;
+    color: #fff;
+    font-weight: 600;
+    border-radius:50%;
+    padding:10px;
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    position: absolute;
+    left:20px;
+    bottom: -25px;
+}
+
+.feature-img{
+    position: relative;
+}
+
+.rating{
+    padding:3px;
+    float:right;
+    background: #fff;
+    bottom: -1px;
+    right:0;
+    position: absolute;
+}
+
+.features .fa{
+    font-size: 15px;
+    color:#ff5722;
+}
+
+.feature-details{
+    padding:20px;
+    text-align: justify;
+}
+
+.feature-details h4{
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+
+.feature-details p{
+    font-size: 15px;
+ 
+}
+
+.feature-details .fa{
+    margin-right: 5px;
+}
+
+.feature-box{
+    box-shadow: 0 0 10px 1px rgba(37,73,214,0.18);
+    margin-bottom: 30px;
+
+}
+
+.gallery{
+    padding: 100px 0;
+    background: #efefef;
+}
+
+.gallery-box img{
+    width: 240px;
+    height: 240px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.gallery-box img:hover{
+    transform: scale(1.1);
+
+}
+
+.gallery-box h4{
+    display: block;
+    font-weight: 600;
+    position: absolute;
+    font-size: 20px;
+    top:50%;
+    left:50%;
+    color:cyan;
+    text-shadow: -2px 2px 2px #000;
+    transform: translate(-50%,-50%);
+}
+
+.gallery-box{
+    position: relative;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+
+.banner{
+    height:100vh;
+    background: url(sunrise-1634197.jpg) no-repeat center center/cover;
+    padding-top: 170px;
+    
+}
+
+.banner-highlights{
+    padding: 70px 0;
+    background: rgba(0,0,0,0.7);
+    text-align: center;
+    color:#fff;
+}
+
+.button-btn{
+    width:100px;
+    height:50px;
+    margin:20px;
+    padding:8px;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background:transparent;
+    color:white;
+    margin-top: 20px;
+
+}
+
+.users-feedback{
+    padding: 100px 0;
+}
+
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+}
+
+.user-review p{
+    padding: 20px 10px 10px 10px;
+}
+
+.users-feedback img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+
+.users-feedback .fa{
+    padding-top: 20px;
+    color:rebeccapurple;
+    font-size: 35px;
+
+}
+
+.footer{
+    padding: 100px 20px 15px;
+    background-image: linear-gradient(#2d557d,#9610fb);
+    color: #fff;
+    font-size: 40px;
+}
+
+.footer h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.footer p{
+    font-size: 12px;
+    text-align: justify;
+}
+
+.footer .row .fa{
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.footer hr{
+    margin-top: 10px;
+    background: #efefef;
+}
+
+
+
+.fa-heart{
+    margin: 0 5px;
+    color:#f44336;
+
+}
+
+.footer .copyright{
+    text-align: center;
+    font-size: 15px;
+}
